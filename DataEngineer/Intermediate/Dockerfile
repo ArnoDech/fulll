@@ -20,6 +20,7 @@ RUN apt-get update && \
 
 RUN pip3 install numpy
 RUN pip3 install pandas
+RUN pip3 install pyspark
 
 # Copier le code du projet dans le conteneur
 WORKDIR /app
