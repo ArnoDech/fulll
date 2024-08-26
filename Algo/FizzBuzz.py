@@ -33,4 +33,3 @@ class FizzBuzz:
 if __name__ == '__main__':
     test = FizzBuzz()
     test.run()
-    print("ok")
